@@ -1,0 +1,95 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "validationStatus": {
+      "type": "string"
+    },
+    "simulationErrorCode": {
+      "type": "null"
+    },
+    "simulationErrorMessage": {
+      "type": "null"
+    },
+    "statusOCRByDocument": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "providerId": {
+              "type": "string"
+            },
+            "onbaseCode": {
+              "type": "string"
+            },
+            "status": {
+              "type": "string"
+            },
+            "errors": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "code": {
+                      "type": "string"
+                    },
+                    "causes": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "string"
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "code",
+                    "causes"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "providerId",
+            "onbaseCode",
+            "status",
+            "errors"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "providerId": {
+              "type": "string"
+            },
+            "onbaseCode": {
+              "type": "string"
+            },
+            "status": {
+              "type": "string"
+            },
+            "errors": {
+              "type": "array",
+              "items": {}
+            }
+          },
+          "required": [
+            "providerId",
+            "onbaseCode",
+            "status",
+            "errors"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "validationStatus",
+    "simulationErrorCode",
+    "simulationErrorMessage",
+    "statusOCRByDocument"
+  ]
+}

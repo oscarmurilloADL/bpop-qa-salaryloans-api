@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "completeName": {
+      "type": "null"
+    },
+    "token": {
+      "type": "string"
+    },
+    "generatedId": {
+      "type": "integer"
+    },
+    "returnCode": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "completeName",
+    "token",
+    "generatedId",
+    "returnCode"
+  ]
+}

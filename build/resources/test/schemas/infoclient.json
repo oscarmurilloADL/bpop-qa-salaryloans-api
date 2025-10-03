@@ -1,0 +1,132 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "fullName": {
+      "type": "string"
+    },
+    "cellNumber": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "cityId": {
+      "type": "null"
+    },
+    "cityName": {
+      "type": "null"
+    },
+    "stateId": {
+      "type": "string"
+    },
+    "stateProvName": {
+      "type": "null"
+    },
+    "countryId": {
+      "type": "string"
+    },
+    "countryName": {
+      "type": "null"
+    },
+    "fullAddress": {
+      "type": "string"
+    },
+    "streetType": {
+      "type": "string"
+    },
+    "streetName": {
+      "type": "string"
+    },
+    "streetNumber": {
+      "type": "string"
+    },
+    "phoneNumber": {
+      "type": "string"
+    },
+    "monthlyIncome": {
+      "type": "number"
+    },
+    "additionalIncome": {
+      "type": "number"
+    },
+    "monthlyExpenses": {
+      "type": "number"
+    },
+    "assets": {
+      "type": "number"
+    },
+    "debts": {
+      "type": "number"
+    },
+    "economicActivity": {
+      "type": "null"
+    },
+    "economicActivityType": {
+      "type": "string"
+    },
+    "maritalStatus": {
+      "type": "string"
+    },
+    "maritalStatusDesc": {
+      "type": "null"
+    },
+    "educationLevelCod": {
+      "type": "string"
+    },
+    "professionCode": {
+      "type": "string"
+    },
+    "peopleInChargeOf": {
+      "type": "string"
+    },
+    "occupation": {
+      "type": "string"
+    },
+    "products": {
+      "type": "null"
+    },
+    "customerType": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "name",
+    "lastName",
+    "fullName",
+    "cellNumber",
+    "email",
+    "cityId",
+    "cityName",
+    "stateId",
+    "stateProvName",
+    "countryId",
+    "countryName",
+    "fullAddress",
+    "streetType",
+    "streetName",
+    "streetNumber",
+    "phoneNumber",
+    "monthlyIncome",
+    "additionalIncome",
+    "monthlyExpenses",
+    "assets",
+    "debts",
+    "economicActivity",
+    "economicActivityType",
+    "maritalStatus",
+    "maritalStatusDesc",
+    "educationLevelCod",
+    "professionCode",
+    "peopleInChargeOf",
+    "occupation",
+    "products",
+    "customerType"
+  ]
+}

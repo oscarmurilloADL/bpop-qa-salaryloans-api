@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "state": {
+      "type": "string"
+    },
+    "causal": {
+      "type": "string"
+    },
+    "toDo": {
+      "type": "string"
+    },
+    "payerName": {
+      "type": "string"
+    },
+    "cellPhoneNumber": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "state",
+    "causal",
+    "toDo",
+    "payerName",
+    "cellPhoneNumber"
+  ]
+}

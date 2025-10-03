@@ -1,0 +1,76 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "maxLoanAmount": {
+      "type": "integer"
+    },
+    "minLoanAmount": {
+      "type": "number"
+    },
+    "maxLoanTerm": {
+      "type": "integer"
+    },
+    "minLoanTerm": {
+      "type": "integer"
+    },
+    "interestRate": {
+      "type": "number"
+    },
+    "nominalRate": {
+      "type": "number"
+    },
+    "maxFeeNumberRule": {
+      "type": "integer"
+    },
+    "feeAmount": {
+      "type": "integer"
+    },
+    "creditReview": {
+      "type": "number"
+    },
+    "interestAdjustment": {
+      "type": "integer"
+    },
+    "lifeInsuranceAdjustment": {
+      "type": "integer"
+    },
+    "interestAdvanced": {
+      "type": "integer"
+    },
+    "lifeInsuranceAdvanced": {
+      "type": "integer"
+    },
+    "obligationBalance": {
+      "type": "integer"
+    },
+    "disbursementAmount": {
+      "type": "integer"
+    },
+    "responseCode": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "maxLoanAmount",
+    "minLoanAmount",
+    "maxLoanTerm",
+    "minLoanTerm",
+    "interestRate",
+    "nominalRate",
+    "maxFeeNumberRule",
+    "feeAmount",
+    "creditReview",
+    "interestAdjustment",
+    "lifeInsuranceAdjustment",
+    "interestAdvanced",
+    "lifeInsuranceAdvanced",
+    "obligationBalance",
+    "disbursementAmount",
+    "responseCode"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "cellphone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "debitCard": {
+      "type": "boolean"
+    },
+    "customerType": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "name",
+    "cellphone",
+    "email",
+    "debitCard",
+    "customerType"
+  ]
+}

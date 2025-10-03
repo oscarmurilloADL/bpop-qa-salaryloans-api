@@ -1,0 +1,358 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "code": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "price": {
+          "type": "string"
+        },
+        "spouseCoveraged": {
+          "type": "boolean"
+        },
+        "maxCoverage": {
+          "type": "boolean"
+        },
+        "coverages": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "description": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "description"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "description": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "description"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "description": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "description"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "description": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "description"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "description": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "description"
+              ]
+            }
+          ]
+        }
+      },
+      "required": [
+        "code",
+        "name",
+        "price",
+        "spouseCoveraged",
+        "maxCoverage",
+        "coverages"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "code": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "price": {
+          "type": "string"
+        },
+        "spouseCoveraged": {
+          "type": "boolean"
+        },
+        "maxCoverage": {
+          "type": "boolean"
+        },
+        "coverages": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "description": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "description"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "description": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "description"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "description": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "description"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "description": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "description"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "description": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "description"
+              ]
+            }
+          ]
+        }
+      },
+      "required": [
+        "code",
+        "name",
+        "price",
+        "spouseCoveraged",
+        "maxCoverage",
+        "coverages"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "code": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "price": {
+          "type": "string"
+        },
+        "spouseCoveraged": {
+          "type": "boolean"
+        },
+        "maxCoverage": {
+          "type": "boolean"
+        },
+        "coverages": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "description": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "description"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "description": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "description"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "description": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "description"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "description": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "description"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "description": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "description"
+              ]
+            }
+          ]
+        }
+      },
+      "required": [
+        "code",
+        "name",
+        "price",
+        "spouseCoveraged",
+        "maxCoverage",
+        "coverages"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "code": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "price": {
+          "type": "string"
+        },
+        "spouseCoveraged": {
+          "type": "boolean"
+        },
+        "maxCoverage": {
+          "type": "boolean"
+        },
+        "coverages": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "description": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "description"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "description": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "description"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "description": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "description"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "description": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "description"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "description": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "description"
+              ]
+            }
+          ]
+        }
+      },
+      "required": [
+        "code",
+        "name",
+        "price",
+        "spouseCoveraged",
+        "maxCoverage",
+        "coverages"
+      ]
+    }
+  ]
+}

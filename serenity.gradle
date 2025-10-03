@@ -1,0 +1,49 @@
+/**************************************************************************
+ ************* ADL DevOps Gradle Script ***********************************
+ * ------------------------------------------------------------------------
+ * ############ Serenity Configuration #########################################
+ *
+ *  This file have the serenity configuration plugin
+ *
+ * DOC :
+ * ---------------------------------------------------
+ *  https://github.com/serenity-bdd/serenity-core
+ *
+ * HOW TO RUN :
+ * ---------------------------------------------------
+ *   $ gradle test
+ *
+ * AUTHORS :
+ * ---------------------------------------------------
+ *   "Juan Sebastian Sanchez <juann.sanchez@avaldigitallabs.com>"
+ **************************************************************************/
+buildscript {
+    repositories {
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+        mavenLocal()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath "net.serenity-bdd:serenity-gradle-plugin:4.0.46"
+    }
+}
+
+repositories {
+    maven {
+        url 'https://gitlab.com/api/v4/projects/42775319/packages/maven'
+    }
+}
+
+apply plugin: net.serenitybdd.plugins.gradle.SerenityPlugin
+
+defaultTasks 'clean','test','aggregate'
+gradle.startParameter.continueOnFailure = true
+
+test.finalizedBy(aggregate)
+
+htmlDependencyReport {
+    projects = project.allprojects
+}

@@ -1,0 +1,209 @@
+{
+  "type": "object",
+  "required": [
+    "data",
+    "totalElements",
+    "totalPages",
+    "last",
+    "numberOfElements",
+    "first"
+  ],
+  "properties": {
+    "data": {
+      "type": "array",
+      "uniqueItems": false,
+      "additionalItems": true,
+      "items": {
+        "anyOf": [
+          {
+            "type": "object",
+            "required": [
+              "requestId",
+              "loanCode",
+              "identificationNumber",
+              "captureResult",
+              "idCaptureResult",
+              "idCaptureCausal",
+              "captureCausal",
+              "captureAssigned",
+              "captureToDo",
+              "captureLastChangeDate",
+              "idApprovalResult",
+              "approvalResult",
+              "idApprovalCausal",
+              "approvalCausal",
+              "approvalAssigned",
+              "approvalToDo",
+              "approvalLastChangeDate",
+              "idImprovementResult",
+              "improvementResult",
+              "idImprovementCausal",
+              "improvementCausal",
+              "improvementAssigned",
+              "improvementToDo",
+              "improvementLastChangeDate",
+              "forDisbursementResult",
+              "forDisbursementCausal",
+              "disbursementResult",
+              "disbursementCausal",
+              "filename",
+              "date",
+              "payerName",
+              "causalComment",
+              "payrollPlatform",
+              "apprrovedTerm",
+              "newFeeAmount",
+              "fechaHoraGeneracion",
+              "captureType",
+              "creditType",
+              "sendFabricDate"
+            ],
+            "properties": {
+              "requestId": {
+                "type": "integer",
+                "pattern": "[0-9]*$"
+              },
+              "loanCode": {
+                "type": "string",
+                "pattern": "[0-9]*$"
+              },
+              "identificationNumber": {
+                "type": "string",
+                "pattern": "[0-9]*$"
+              },
+              "captureResult": {
+                "type": ["string","null"]
+              },
+              "idCaptureResult": {
+                "type": ["integer","null"]
+              },
+              "idCaptureCausal": {
+                "type": ["integer","null"]
+              },
+              "captureCausal": {
+                "type": ["string","null"]
+              },
+              "captureAssigned": {
+                "type": "null"
+              },
+              "captureToDo": {
+                "type": ["string","null"]
+              },
+              "captureLastChangeDate": {
+                "type": ["string","null"]
+              },
+              "idApprovalResult": {
+                "type": ["integer","null"]
+              },
+              "approvalResult": {
+                "type": ["string","null"]
+              },
+              "idApprovalCausal": {
+                "type": ["integer","null"]
+              },
+              "approvalCausal": {
+                "type": ["string","null"]
+              },
+              "approvalAssigned": {
+                "type": "null"
+              },
+              "approvalToDo": {
+                "type": ["string","null"]
+              },
+              "approvalLastChangeDate": {
+                "type": ["string","null"],
+                "pattern": "^\\d{4}\\/(0[1-9]|1[0-2])\\/(0[1-9]|[12][0-9]|3[01]) ([0-2][0-9]:[0-5][0-9])$"
+              },
+              "idImprovementResult": {
+                "type": ["integer","null"]
+              },
+              "improvementResult": {
+                "type": ["string","null"]
+              },
+              "idImprovementCausal": {
+                "type": ["integer","null"]
+              },
+              "improvementCausal": {
+                "type": ["string","null"]
+              },
+              "improvementAssigned": {
+                "type": ["integer","null"],
+                "pattern": "[0-9]*$"
+              },
+              "improvementToDo": {
+                "type": ["string","null"]
+              },
+              "improvementLastChangeDate": {
+                "type": ["string","null"],
+                "pattern": "^\\d{4}\\/(0[1-9]|1[0-2])\\/(0[1-9]|[12][0-9]|3[01]) ([0-2][0-9]:[0-5][0-9])$"
+              },
+              "forDisbursementResult": {
+                "type": ["string","null"]
+              },
+              "forDisbursementCausal": {
+                "type": "null"
+              },
+              "disbursementResult": {
+                "type": "null"
+              },
+              "disbursementCausal": {
+                "type": "null"
+              },
+              "filename": {
+                "type": "string"
+              },
+              "date": {
+                "type": "string"
+              },
+              "payerName": {
+                "type": "string"
+              },
+              "causalComment": {
+                "type": "null"
+              },
+              "payrollPlatform": {
+                "type": ["string","null"]
+              },
+              "apprrovedTerm": {
+                "type": "string"
+              },
+              "newFeeAmount": {
+                "type": "string"
+              },
+              "fechaHoraGeneracion": {
+                "type": "string",
+                "pattern": "^\\d{4}\\/(0[1-9]|1[0-2])\\/(0[1-9]|[12][0-9]|3[01]) ([0-2][0-9]:[0-5][0-9])$"
+              },
+              "captureType": {
+                "type": "string"
+              },
+              "creditType": {
+                "type": "string"
+              },
+              "sendFabricDate": {
+                "type": ["string","null"]
+              }
+            },
+            "additionalProperties": true
+          }
+        ]
+      }
+    },
+    "totalElements": {
+      "type": "integer"
+    },
+    "totalPages": {
+      "type": "integer"
+    },
+    "last": {
+      "type": "boolean"
+    },
+    "numberOfElements": {
+      "type": "integer"
+    },
+    "first": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": true
+}

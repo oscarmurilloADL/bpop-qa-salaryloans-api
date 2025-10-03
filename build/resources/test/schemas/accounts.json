@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "accountId": {
+          "type": "string"
+        },
+        "accountStatus": {
+          "type": "string"
+        },
+        "accountType": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "accountId",
+        "accountStatus",
+        "accountType"
+      ]
+    }
+  ]
+}

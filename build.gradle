@@ -1,0 +1,137 @@
+apply from: file('java-serenity-project.gradle')
+group = 'co.com.bancopopular.automation.rest'
+version = '1.0-SNAPSHOT'
+description = 'bpop-salaryloans-qa-api'
+sourceCompatibility = '17'
+
+ext {
+    libs = [
+            slf4jApi        : "org.slf4j:slf4j-api:${slf4jVersion}",
+            cipherBPop      : "co.com.adl.pb.test:adl-pb-cipher-test-sdk:${cipherBPopVersion}",
+            slf4j           : "org.Fslf4j:slf4j-api:${slf4jVersion}",
+            log4j           : "log4j:log4j:${log4jVersion}",
+            logback         : "ch.qos.logback:logback-classic:${logbackVersion}",
+            log4jCore       : "org.apache.logging.log4j:log4j-core:${log4jVersionCore}",
+            protocolCore    : "software.amazon.awssdk:protocol-core:${awsSdkVersion}",
+            dynamodb        : "software.amazon.awssdk:dynamodb:${awsSdkVersion}",
+            cloudwatchlogs  : "software.amazon.awssdk:cloudwatchlogs:${awsSdkVersion}",
+            httpClient      : "commons-httpclient:commons-httpclient:${httpclientVersion}",
+            assertCore      : "org.assertj:assertj-core:${assertjCoreVersion}",
+            awaitility      : "org.awaitility:awaitility:${awaitilityVersion}",
+            awsJava         : "com.amazonaws:aws-java-sdk:${awsJavaVersion}",
+            test            : [
+                    serenity: [
+                            core               : "net.serenity-bdd:serenity-core:${serenityCoreVersion}",
+                            junit              : "net.serenity-bdd:serenity-junit:${junitVersion}",
+                            screenplay         : "net.serenity-bdd:serenity-screenplay:${serenityCoreVersion}",
+                            screenplayWebdriver: "net.serenity-bdd:serenity-screenplay-webdriver:${serenityCoreVersion}",
+                            rest               : "net.serenity-bdd:serenity-rest-assured:${serenityRestAssured}",
+                            serenityCucumber   : "net.serenity-bdd:serenity-cucumber:${serenityCucumberVersion}",
+                            lombok             : "org.projectlombok:lombok:${lombokVersion}"
+                    ],
+                    junit       : "junit:junit:${junitVersion}",
+                    assertj     : "org.assertj:assertj-core:${assertJVersion}",
+                    hamcrest    : "org.hamcrest:hamcrest-all:${hamcrestVersion}",
+                    restAssured : "io.rest-assured:rest-assured:${serenityRestAssured}",
+                    groovy      : "org.apache.groovy:groovy:${groovyVersion}",
+                    apachePoi   : "org.apache.poi:poi-ooxml:${apachePoiVersion}",
+                    jsonPath    : "com.jayway.jsonpath:json-path:${jsonpathVersion}",
+                    jaxbApi     : "javax.xml.bind:jaxb-api:${jaxbApiVersion}",
+                    json        : "org.json:json:${jsonVersion}",
+                    mysql       : "mysql:mysql-connector-java:${mysqlVersion}",
+                    jdk15       : "org.bouncycastle:bcprov-jdk15on:${jdk15onVersion}",
+                    jwt         : "com.nimbusds:nimbus-jose-jwt:${jwtVersion}",
+                    gson        : "com.google.code.gson:gson:${gsonVersion}",
+                    jsonSchema  : "io.rest-assured:json-schema-validator:${jsonSchemaVersion}",
+                    jsonSimple  : "com.googlecode.json-simple:json-simple:${jsonSimpleVersion}",
+                    shiroCore   : "org.apache.shiro:shiro-core:${shiroCoreVersion}",
+                    everitjsonschema: "org.everit.json:org.everit.json.schema:${everitJsonSchemaVersion}",
+                    lambda : "software.amazon.awscdk:lambda:${lambdaVersion}",
+                    jacksonCore : "com.fasterxml.jackson.core:jackson-core:${jacksonVersion}",
+                    jacksondatabind :"com.fasterxml.jackson.core:jackson-databind:${jacksonVersion}",
+                    jacksondataformat : "com.fasterxml.jackson.dataformat:jackson-dataformat-xml:${jacksonVersion}"
+            ]
+    ]
+}
+
+dependencies {
+    implementation "co.com.adl.pb.test:adl-pb-cipher-test-sdk:${cipherBPopVersion}"
+    implementation "org.aeonbits.owner:owner-java8:${aeonbitsVersion}"
+    implementation "net.serenity-bdd:serenity-core:${serenityCoreVersion}"
+    testImplementation group: 'junit', name: 'junit', version: "${junitVersion}"
+    implementation "net.serenity-bdd:serenity-screenplay:${serenityCoreVersion}"
+    implementation "net.serenity-bdd:serenity-screenplay-rest:${serenityRestAssured}"
+    testImplementation "net.serenity-bdd:serenity-rest-assured:${serenityRestAssured}"
+    testImplementation "net.serenity-bdd:serenity-cucumber:${serenityCucumberVersion}"
+    implementation "org.apache.groovy:groovy:${groovyVersion}"
+    implementation "io.rest-assured:rest-assured:${serenityRestAssured}"
+    implementation "commons-httpclient:commons-httpclient:${httpclientVersion}"
+    implementation "org.bouncycastle:bcprov-jdk15on:${jdk15onVersion}"
+    implementation "com.nimbusds:nimbus-jose-jwt:${jwtVersion}"
+    implementation "com.google.code.gson:gson:${gsonVersion}"
+    implementation "mysql:mysql-connector-java:${mysqlVersion}"
+    implementation "org.slf4j:slf4j-api:${slf4jVersion}"
+    implementation "software.amazon.awssdk:protocol-core:${awsSdkVersion}"
+    implementation "software.amazon.awssdk:dynamodb:${awsSdkVersion}"
+    implementation "software.amazon.awssdk:cloudwatchlogs:${awsSdkVersion}"
+    implementation "io.rest-assured:json-schema-validator:${jsonSchemaVersion}"
+    implementation "com.googlecode.json-simple:json-simple:${jsonSimpleVersion}"
+    implementation "log4j:log4j:${log4jVersion}"
+    implementation "org.apache.logging.log4j:log4j-core:${log4jVersionCore}"
+    implementation "ch.qos.logback:logback-classic:${logbackVersion}"
+    implementation "org.apache.shiro:shiro-core:${shiroCoreVersion}"
+    testImplementation "org.assertj:assertj-core:${assertjCoreVersion}"
+    testImplementation "org.awaitility:awaitility:${awaitilityVersion}"
+    implementation "org.everit.json:org.everit.json.schema:${everitJsonSchemaVersion}"
+    implementation "com.amazonaws:aws-java-sdk:${awsJavaVersion}"
+    testImplementation "junit:junit:${junitVersion}"
+    compileOnly "org.projectlombok:lombok:${lombokVersion}"
+    annotationProcessor "org.projectlombok:lombok:${lombokVersion}"
+    testCompileOnly "org.projectlombok:lombok:${lombokVersion}"
+    testAnnotationProcessor "org.projectlombok:lombok:${lombokVersion}"
+    implementation "org.apache.poi:poi-ooxml:${apachePoiVersion}"
+    implementation "com.jayway.jsonpath:json-path:${jsonpathVersion}"
+    implementation "javax.xml.bind:jaxb-api:${jaxbApiVersion}"
+    implementation "org.json:json:${jsonVersion}"
+    implementation "software.amazon.awscdk:lambda:${lambdaVersion}"
+    implementation "com.fasterxml.jackson.core:jackson-core:${jacksonVersion}"
+    implementation "com.fasterxml.jackson.core:jackson-databind:${jacksonVersion}"
+    implementation "com.fasterxml.jackson.dataformat:jackson-dataformat-xml:${jacksonVersion}"
+    implementation 'org.jsoup:jsoup:1.17.2'
+    implementation("redis.clients:jedis:6.0.0")
+
+}
+
+test {
+    testLogging.showStandardStreams = true
+    systemProperties System.getProperties()
+}
+
+project.ext.set("jfrogUsername", System.getenv('JFROG_USERNAME')?:'')
+project.ext.set("jfrogPassword", System.getenv('JFROG_PASSWORD')?:'')
+project.ext.set("jfrogRepoKey", System.getenv('JFROG_REPO_KEY')?:'')
+project.ext.set("jfrogUrl", System.getenv('JFROG_REPO_URL')?:'')
+
+sonarqube {
+    properties {
+        property "sonar.projectKey", "qa:bpop-salaryloans-qa-api"
+        property "sonar.projectName", "API Test Project For Salary Loans"
+        property "sonar.sources", "src"
+        property "sonar.sourceEncoding", "UTF-8"
+        property "sonar.java.binaries", "build/classes"
+        property "sonar.coverage.exclusions", "**/*.java"
+        property "sonar.exclusions", "**/*Generated.java"
+        property "sonar.tests", ""
+    }
+}
+dependencies {
+    implementation('com.peterland:thot.xray:2.3.0', {
+        exclude group: 'net.serenity-bdd', module: 'serenity-core'
+        exclude group: 'io.rest-assured', module: 'rest-assured'
+    })
+    repositories {
+        maven {
+            url 'https://gitlab.com/api/v4/projects/42775319/packages/maven'
+        }
+    }
+}

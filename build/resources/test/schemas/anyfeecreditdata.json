@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "maxLoanAmount": {
+      "type": "integer"
+    },
+    "minLoanAmount": {
+      "type": "number"
+    },
+    "maxLoanTerm": {
+      "type": "integer"
+    },
+    "minLoanTerm": {
+      "type": "integer"
+    },
+    "interestRate": {
+      "type": "number"
+    },
+    "nominalRate": {
+      "type": "number"
+    }
+  },
+  "required": [
+    "id",
+    "maxLoanAmount",
+    "minLoanAmount",
+    "maxLoanTerm",
+    "minLoanTerm",
+    "interestRate",
+    "nominalRate"
+  ]
+}

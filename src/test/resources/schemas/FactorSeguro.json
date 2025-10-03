@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "edadCliente": {
+      "type": "number"
+    },
+    "messageid": {
+      "type": "number"
+    },
+    "channel": {
+      "type": "string"
+    },
+    "clientdt": {
+      "type": "string"
+    },
+    "ipaddr": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "edadCliente",
+    "messageid",
+    "channel",
+    "clientdt",
+    "ipaddr"
+  ]
+}

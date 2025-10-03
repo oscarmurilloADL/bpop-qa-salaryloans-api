@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "statusCode": {
+      "type": "string"
+    },
+    "response": {
+      "type": "object",
+      "properties": {
+        "processStatus": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "processStatus"
+      ]
+    }
+  },
+  "required": [
+    "statusCode",
+    "response"
+  ]
+}

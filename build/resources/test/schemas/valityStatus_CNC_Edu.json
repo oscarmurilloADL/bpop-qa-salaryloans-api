@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "documents": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "onbaseCode": {
+              "type": "string"
+            },
+            "status": {
+              "type": "string"
+            },
+            "providerId": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "onbaseCode",
+            "status",
+            "providerId"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "onbaseCode": {
+              "type": "string"
+            },
+            "status": {
+              "type": "string"
+            },
+            "providerId": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "onbaseCode",
+            "status",
+            "providerId"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "documents"
+  ]
+}

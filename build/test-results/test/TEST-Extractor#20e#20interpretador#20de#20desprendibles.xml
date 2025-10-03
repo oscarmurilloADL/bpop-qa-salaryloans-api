@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Extractor e interpretador de desprendibles" tests="1" skipped="0" failures="1" errors="0" timestamp="2025-09-24T23:10:18" hostname="ip-192-168-1-68.us-east-2.compute.internal" time="20.853">
+  <properties/>
+  <testcase name="Validar extraccion e interpretacion exitosa para cliente FOPEP Ampliacion un desprendible" classname="Extractor e interpretador de desprendibles" time="20.853">
+    <failure message="java.lang.NullPointerException: Cannot invoke &quot;com.google.gson.JsonObject.get(String)&quot; because &quot;dataScenario&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;com.google.gson.JsonObject.get(String)&quot; because &quot;dataScenario&quot; is null
+	at co.com.bancopopular.automation.utils.RequestsUtil.setOTPInfo(RequestsUtil.java:126)
+	at co.com.bancopopular.automation.utils.RequestsUtil.createAuthOTP(RequestsUtil.java:247)
+	at co.com.bancopopular.automation.features.steps.extractor.ExtractorStepDefinition.consumeExtractorInterpreterServices(ExtractorStepDefinition.java:69)
+	at ✽.el realiza el proceso de extractor e interpretador de desprendibles para EXTEND_PAYROLL_LOAN(file:///Users/oscar.murillo/Desktop/AUTOMATIZACION/bpop-salaryloans-qa-api/src/test/resources/features/extraction.feature:103)
+</failure>
+  </testcase>
+  <system-out><![CDATA[
+@Extraction @fopepExt @regression
+Escenario: Validar extraccion e interpretacion exitosa para cliente FOPEP Ampliacion un desprendible  ?[90m# src/test/resources/features/extraction.feature:100?[0m
+18:10:18.850 [Test worker] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/oscar.murillo/Desktop/AUTOMATIZACION/bpop-salaryloans-qa-api/src/test/resources/features/extraction.feature
+18:10:18.921 [Test worker] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+Validar extraccion e interpretacion exitosa para cliente FOPEP Ampliacion un desprendible(extractor-e-interpretador-de-desprendibles;validar-extraccion-e-interpretacion-exitosa-para-cliente-fopep-ampliacion-un-desprendible)
+--------------------------------------------------------------------------------
+18:10:26.952 [Test worker] INFO  - |-- Dado John es un cliente con extractor fopep
+  ?[32mDado ?[0m?[32m?[0m?[32m?[1mJohn?[0m?[32m es un ?[0m?[32m?[1mcliente con extractor fopep?[0m                                                         ?[90m# co.com.bancopopular.automation.features.steps.shared.SharedStepsDefinition.userRole(java.lang.String,java.lang.String)?[0m
+18:10:26.973 [Test worker] INFO  - |-- Y se ajusta la fecha de la lambda de extractor en 2025/09/05
+  ?[32mY ?[0m?[32mse ajusta la fecha de la lambda de extractor en ?[0m?[32m?[1m2025/09/05?[0m                                        ?[90m# co.com.bancopopular.automation.features.steps.extractor.ExtractorStepDefinition.updateDateInExtractorLambda(java.lang.String)?[0m
+18:10:29.538 [Test worker] INFO  - |-- Cuando el realiza el proceso de extractor e interpretador de desprendibles para EXTEND_PAYROLL_LOAN
+  ?[31mCuando ?[0m?[31mel realiza el proceso de extractor e interpretador de desprendibles para ?[0m?[31m?[1mEXTEND_PAYROLL_LOAN?[0m ?[90m# co.com.bancopopular.automation.features.steps.extractor.ExtractorStepDefinition.consumeExtractorInterpreterServices(java.lang.String)?[0m
+      ?[31mjava.lang.NullPointerException: Cannot invoke "com.google.gson.JsonObject.get(String)" because "dataScenario" is null
+	at co.com.bancopopular.automation.utils.RequestsUtil.setOTPInfo(RequestsUtil.java:126)
+	at co.com.bancopopular.automation.utils.RequestsUtil.createAuthOTP(RequestsUtil.java:247)
+	at co.com.bancopopular.automation.features.steps.extractor.ExtractorStepDefinition.consumeExtractorInterpreterServices(ExtractorStepDefinition.java:69)
+	at ✽.el realiza el proceso de extractor e interpretador de desprendibles para EXTEND_PAYROLL_LOAN(file:///Users/oscar.murillo/Desktop/AUTOMATIZACION/bpop-salaryloans-qa-api/src/test/resources/features/extraction.feature:103)
+?[0m
+18:10:39.569 [Test worker] INFO  - STEP ERROR: java.lang.NullPointerException: Cannot invoke "com.google.gson.JsonObject.get(String)" because "dataScenario" is null
+18:10:39.575 [Test worker] INFO  - |---- Y el valida la respuesta para extractor e interpretador de desprendibles
+  ?[36mY ?[0m?[36mel valida la respuesta para extractor e interpretador de desprendibles?[0m                            ?[90m# co.com.bancopopular.automation.features.steps.extractor.ExtractorStepDefinition.validateExtractorResponse()?[0m
+18:10:39.576 [Test worker] INFO  -       -> STEP IGNORED
+18:10:39.580 [Test worker] INFO  - |---- Y el consulta el nit homologado para FOPEP
+  ?[36mY ?[0m?[36mel consulta el nit homologado para ?[0m?[36m?[1mFOPEP?[0m                                                          ?[90m# co.com.bancopopular.automation.features.steps.extractor.ExtractorStepDefinition.validateHomologatedNIT(java.lang.String)?[0m
+18:10:39.581 [Test worker] INFO  -       -> STEP IGNORED
+18:10:39.582 [Test worker] INFO  - |---- Y el consulta los datos enviados a interpretador para FOPEP
+  ?[36mY ?[0m?[36mel consulta los datos enviados a interpretador para ?[0m?[36m?[1mFOPEP?[0m                                         ?[90m# co.com.bancopopular.automation.features.steps.extractor.ExtractorStepDefinition.validateRequestForInterpreter(java.lang.String)?[0m
+18:10:39.583 [Test worker] INFO  -       -> STEP IGNORED
+18:10:39.584 [Test worker] INFO  - |---- Y el consulta el evento EXTRACTOR_PROCESS y se espera en estado EXTRACT_SUCCESS
+  ?[36mY ?[0m?[36mel consulta el evento ?[0m?[36m?[1mEXTRACTOR_PROCESS?[0m?[36m y se espera en estado ?[0m?[36m?[1mEXTRACT_SUCCESS?[0m                     ?[90m# co.com.bancopopular.automation.features.steps.extractor.ExtractorStepDefinition.validateExtractorAndInterpreterEvents(java.lang.String,java.lang.String)?[0m
+18:10:39.585 [Test worker] INFO  -       -> STEP IGNORED
+18:10:39.585 [Test worker] INFO  - |---- Y el consulta el evento INTERPRETER_PROCESS y se espera en estado INTERPRETER_SUCCESS
+  ?[36mY ?[0m?[36mel consulta el evento ?[0m?[36m?[1mINTERPRETER_PROCESS?[0m?[36m y se espera en estado ?[0m?[36m?[1mINTERPRETER_SUCCESS?[0m               ?[90m# co.com.bancopopular.automation.features.steps.extractor.ExtractorStepDefinition.validateExtractorAndInterpreterEvents(java.lang.String,java.lang.String)?[0m
+18:10:39.586 [Test worker] INFO  -       -> STEP IGNORED
+18:10:39.587 [Test worker] INFO  - |---- Y el consulta en base de datos la informacion de interpretador
+  ?[36mY ?[0m?[36mel consulta en base de datos la informacion de interpretador?[0m                                      ?[90m# co.com.bancopopular.automation.features.steps.extractor.ExtractorStepDefinition.validateDateConsistency()?[0m
+18:10:39.588 [Test worker] INFO  -       -> STEP IGNORED
+18:10:39.589 [Test worker] INFO  - |---- Entonces el valida la respuesta para extractor e interpretador de desprendibles
+  ?[36mEntonces ?[0m?[36mel valida la respuesta para extractor e interpretador de desprendibles?[0m                     ?[90m# co.com.bancopopular.automation.features.steps.extractor.ExtractorStepDefinition.validateExtractorResponse()?[0m
+18:10:39.590 [Test worker] INFO  -       -> STEP IGNORED
+18:10:39.594 [Test worker] ERROR  - 
+  _____   ___   ___   _____     ___   ___   ___    ___    ___ 
+ |_   _| | __| / __| |_   _|   | __| | _ \ | _ \  / _ \  | _ \
+   | |   | _|  \__ \   | |     | _|  |   / |   / | (_) | |   /
+   |_|   |___| |___/   |_|     |___| |_|_\ |_|_\  \___/  |_|_\
+
+Validar extraccion e interpretacion exitosa para cliente FOPEP Ampliacion un desprendible
+---------------------------------------------------------------
+18:10:39.595 [Test worker] DEBUG  - RELATED ISSUES: 
+18:10:39.633 [Test worker] ERROR  -     Test failed at step: Cuando el realiza el proceso de extractor e interpretador de desprendibles para EXTEND_PAYROLL_LOAN
+18:10:39.633 [Test worker] ERROR  -     Cannot invoke "com.google.gson.JsonObject.get(String)" because "dataScenario" is null
+]]></system-out>
+  <system-err><![CDATA[co.com.bancopopular.automation.exceptions.UserNotFoundException: Type of user does not exist in the system
+	at co.com.bancopopular.automation.data.ScenarioFactory.lambda$getData$0(ScenarioFactory.java:276)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at co.com.bancopopular.automation.data.ScenarioFactory.getData(ScenarioFactory.java:276)
+	at co.com.bancopopular.automation.features.steps.shared.SharedStepsDefinition.userRole(SharedStepsDefinition.java:25)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+	at io.cucumber.junit.CucumberSerenityBaseRunner.runChild(CucumberSerenityBaseRunner.java:332)
+	at io.cucumber.junit.CucumberSerenityBaseRunner.runChild(CucumberSerenityBaseRunner.java:53)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.CucumberSerenityBaseRunner$RunCucumber.evaluate(CucumberSerenityBaseRunner.java:363)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:108)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:57)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:39)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy2/jdk.proxy2.$Proxy5.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$2.run(TestWorker.java:176)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+]]></system-err>
+</testsuite>

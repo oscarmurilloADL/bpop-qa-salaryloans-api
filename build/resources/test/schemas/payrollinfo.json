@@ -1,0 +1,90 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "payerId": {
+          "type": "string"
+        },
+        "payerLocationCode": {
+          "type": "string"
+        },
+        "payerName": {
+          "type": "string"
+        },
+        "loanAmount": {
+          "type": "integer"
+        },
+        "currentDeb": {
+          "type": "number"
+        },
+        "initialDate": {
+          "type": "array"
+        },
+        "missingLoanQuotas": {
+          "type": "integer"
+        },
+        "currentQuotaAmount": {
+          "type": "integer"
+        },
+        "finalLoanDate": {
+          "type": "array"
+        },
+        "nextQuotaDate": {
+          "type": "array"
+        },
+        "income": {
+          "type": "string"
+        },
+        "totalIncome": {
+          "type": "string"
+        },
+        "otherOutcome": {
+          "type": "string"
+        },
+        "obligationId": {
+          "type": "string"
+        },
+        "feeAmount": {
+          "type": "integer"
+        },
+        "birthDate": {
+          "type": "string"
+        },
+        "sector": {
+          "type": "string"
+        },
+        "subSector": {
+          "type": "string"
+        },
+        "payerWeb": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "payerId",
+        "payerLocationCode",
+        "payerName",
+        "loanAmount",
+        "currentDeb",
+        "initialDate",
+        "loanQuotas",
+        "missingLoanQuotas",
+        "currentQuotaAmount",
+        "finalLoanDate",
+        "nextQuotaDate",
+        "income",
+        "totalIncome",
+        "otherOutcome",
+        "obligationId",
+        "feeAmount",
+        "birthDate",
+        "sector",
+        "subSector",
+        "payerWeb"
+      ]
+    }
+  ]
+}

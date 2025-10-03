@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "obligationId": {
+          "type": "string"
+        },
+        "payerName": {
+          "type": "string"
+        },
+        "payerWeb": {
+          "type": "string"
+        },
+        "currentDeb": {
+          "type": "number"
+        },
+        "payerId": {
+          "type": "string"
+        },
+        "payerLocationCode": {
+          "type": "string"
+        },
+        "loanRenewValidation": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "obligationId",
+        "payerName",
+        "payerWeb",
+        "currentDeb",
+        "payerId",
+        "payerLocationCode",
+        "loanRenewValidation"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "commissionCreditStudy": {
+      "type": "string"
+    },
+    "creditStudyIVA": {
+      "type": "string"
+    },
+    "creditStudy": {
+      "type": "string"
+    },
+    "insurancePremiumAdjustment": {
+      "type": "string"
+    },
+    "adjustmentInterests": {
+      "type": "string"
+    },
+    "discounts": {
+      "type": "string"
+    },
+    "disbursement": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "commissionCreditStudy",
+    "creditStudyIVA",
+    "creditStudy",
+    "insurancePremiumAdjustment",
+    "adjustmentInterests",
+    "discounts",
+    "disbursement"
+  ]
+}

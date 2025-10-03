@@ -1,0 +1,30 @@
+/*************************************************************************************************
+ ******************************* ADL DevOps Gradle Script ****************************************
+ * -----------------------------------------------------------------------------------------------
+ * ############################  General Java Serenity librarys Gradle #######################################
+ *
+ * The following file contain the quick guide of Java Serenity configuration with Gradle
+ *
+ * AUTHORS :
+ * ---------------------------------------------------
+ *   "Juan Sebastian Sanchez <juan.sanchez@avaldigitallabs.com>"
+ ************************************************************************************************/
+
+project.ext.set("jfrogUsername", System.getenv('JFROG_USERNAME')?:'')
+project.ext.set("jfrogPassword", System.getenv('JFROG_PASSWORD')?:'')
+project.ext.set("jfrogRepoKey", System.getenv('JFROG_REPO_KEY')?:'')
+project.ext.set("jfrogUrl", System.getenv('JFROG_REPO_URL')?:'')
+
+apply from: "https://gradle.avaldigitallabs.com/resources/java/java.gradle?v1.1.16"
+apply from: "https://gradle.avaldigitallabs.com/resources/doc/javadoc.gradle?v1.1.16"
+apply from: "https://gradle.avaldigitallabs.com/resources/java/test-java.gradle?v1.1.16"
+apply from: "https://gradle.avaldigitallabs.com/resources/ides/eclipse.gradle?v1.1.16"
+apply from: "https://gradle.avaldigitallabs.com/resources/ides/idea.gradle?v1.1.16"
+apply from: "https://gradle.avaldigitallabs.com/resources/commons/static-code-analysis.gradle?v1.1.16"
+apply from: "https://gradle.avaldigitallabs.com/resources/coverage/jacoco.gradle?v1.1.16"
+apply from: "https://gradle.avaldigitallabs.com/resources/commons/commons.gradle?v1.1.16"
+apply from: "https://gradle.avaldigitallabs.com/resources/sonar/sonar.gradle?v1.1.16"
+apply from: "https://gradle.avaldigitallabs.com/resources/license/license.gradle?v1.1.16"
+apply from: "https://gradle.avaldigitallabs.com/resources/jfrog/artifactory.gradle?v1.1.16"
+apply from: "https://gradle.avaldigitallabs.com/resources/dependencies/dependencies-report.gradle?v1.1.16"
+apply from: file ('serenity.gradle')

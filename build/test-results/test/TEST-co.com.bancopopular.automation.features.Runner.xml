@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="co.com.bancopopular.automation.features.Runner" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="ip-192-168-1-68.us-east-2.compute.internal" time="0.0">
+  <properties/>
+  <system-out><![CDATA[18:10:18.638 [Test worker] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/oscar.murillo/Desktop/AUTOMATIZACION/bpop-salaryloans-qa-api/src/test/resources/features/accept.feature
+18:10:18.670 [Test worker] INFO  - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at https://serenity-bdd.info                                     
+ Documentation at https://serenity-bdd.github.io                                     
+ Test Automation Training and Coaching: https://www.serenity-dojo.com                
+ Commercial Support: https://www.serenity-dojo.com/serenity-bdd-enterprise-support   
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+-------------------------------------------------------------------------------------
+
+18:10:18.674 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.model.domain.Story@64f6a100
+18:10:18.676 [Test worker] INFO  - Test Suite Started: Aceptación de mi crédito
+18:10:18.742 [Test worker] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/oscar.murillo/Desktop/AUTOMATIZACION/bpop-salaryloans-qa-api/src/test/resources/features/accounts.feature
+18:10:18.744 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.model.domain.Story@13b77cc0
+18:10:18.744 [Test worker] INFO  - Test Suite Started: Traer la informacion de las cuentas del cliente
+18:10:18.744 [Test worker] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/oscar.murillo/Desktop/AUTOMATIZACION/bpop-salaryloans-qa-api/src/test/resources/features/adminValidations.feature
+18:10:18.746 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.model.domain.Story@4cf28960
+18:10:18.746 [Test worker] INFO  - Test Suite Started: Validar transacciones en administrador
+18:10:18.746 [Test worker] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/oscar.murillo/Desktop/AUTOMATIZACION/bpop-salaryloans-qa-api/src/test/resources/features/anyfeesimulation.feature
+18:10:18.748 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.model.domain.Story@1cf0f420
+18:10:18.748 [Test worker] INFO  - Test Suite Started: Simulacion de mi credito toda cuota
+18:10:18.748 [Test worker] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/oscar.murillo/Desktop/AUTOMATIZACION/bpop-salaryloans-qa-api/src/test/resources/features/auth.feature
+18:10:18.750 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.model.domain.Story@5bbb500
+18:10:18.750 [Test worker] INFO  - Test Suite Started: Autenticación del cliente y usuarios banco
+18:10:18.750 [Test worker] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/oscar.murillo/Desktop/AUTOMATIZACION/bpop-salaryloans-qa-api/src/test/resources/features/bankinsurance.feature
+18:10:18.753 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.model.domain.Story@393c83c0
+18:10:18.754 [Test worker] INFO  - Test Suite Started: Mostrar ofertas para banca seguros
+18:10:18.754 [Test worker] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/oscar.murillo/Desktop/AUTOMATIZACION/bpop-salaryloans-qa-api/src/test/resources/features/buro.feature
+18:10:18.755 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.model.domain.Story@5ca3a00
+18:10:18.756 [Test worker] INFO  - Test Suite Started: Validar los habitos financieros y capacidad de pago
+18:10:18.756 [Test worker] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/oscar.murillo/Desktop/AUTOMATIZACION/bpop-salaryloans-qa-api/src/test/resources/features/cashieroffice.feature
+18:10:18.758 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.model.domain.Story@a66967e0
+18:10:18.758 [Test worker] INFO  - Test Suite Started: Mostrar pagadurías disponibles para un cliente en flujo CNC
+18:10:18.758 [Test worker] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/oscar.murillo/Desktop/AUTOMATIZACION/bpop-salaryloans-qa-api/src/test/resources/features/consultPayrollLoan.feature
+18:10:18.759 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.model.domain.Story@523f8520
+18:10:18.759 [Test worker] INFO  - Test Suite Started: Consultar libranza
+18:10:18.759 [Test worker] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/oscar.murillo/Desktop/AUTOMATIZACION/bpop-salaryloans-qa-api/src/test/resources/features/decrim.feature
+18:10:18.760 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.model.domain.Story@c53ba80
+18:10:18.760 [Test worker] INFO  - Test Suite Started: Validacion autenticación Decrim
+18:10:18.761 [Test worker] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/oscar.murillo/Desktop/AUTOMATIZACION/bpop-salaryloans-qa-api/src/test/resources/features/educationalcnc.feature
+18:10:18.762 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.model.domain.Story@729454a0
+18:10:18.762 [Test worker] INFO  - Test Suite Started: Validación flujo CNC
+18:10:18.762 [Test worker] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/oscar.murillo/Desktop/AUTOMATIZACION/bpop-salaryloans-qa-api/src/test/resources/features/event.feature
+18:10:18.763 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.model.domain.Story@b8ce5340
+18:10:18.764 [Test worker] INFO  - Test Suite Started: Eventos de aceptación de condiciones del crédito
+18:10:18.764 [Test worker] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/oscar.murillo/Desktop/AUTOMATIZACION/bpop-salaryloans-qa-api/src/test/resources/features/externalviability.feature
+18:10:18.766 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.model.domain.Story@9f5ef580
+18:10:18.766 [Test worker] INFO  - Test Suite Started: Validacion de viabilidad externa
+18:10:18.766 [Test worker] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/oscar.murillo/Desktop/AUTOMATIZACION/bpop-salaryloans-qa-api/src/test/resources/features/extraction.feature
+18:10:18.768 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.model.domain.Story@997bfce0
+18:10:18.768 [Test worker] INFO  - Test Suite Started: Extractor e interpretador de desprendibles
+18:10:18.768 [Test worker] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/oscar.murillo/Desktop/AUTOMATIZACION/bpop-salaryloans-qa-api/src/test/resources/features/factorseguro.feature
+18:10:18.769 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.model.domain.Story@bfd5e180
+18:10:18.769 [Test worker] INFO  - Test Suite Started: Verificacion de factor seguro de libranza por edad para tener seguridad del monto a prestar al cliente
+18:10:18.769 [Test worker] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/oscar.murillo/Desktop/AUTOMATIZACION/bpop-salaryloans-qa-api/src/test/resources/features/internalviability.feature
+18:10:18.771 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.model.domain.Story@fdf89f40
+18:10:18.771 [Test worker] INFO  - Test Suite Started: Validacion de viabilidad interna
+18:10:18.772 [Test worker] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/oscar.murillo/Desktop/AUTOMATIZACION/bpop-salaryloans-qa-api/src/test/resources/features/laboralCertification.feature
+18:10:18.773 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.model.domain.Story@265e03e0
+18:10:18.773 [Test worker] INFO  - Test Suite Started: Validación de mi certificado
+18:10:18.773 [Test worker] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/oscar.murillo/Desktop/AUTOMATIZACION/bpop-salaryloans-qa-api/src/test/resources/features/legalconditions.feature
+18:10:18.774 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.model.domain.Story@e308c620
+18:10:18.774 [Test worker] INFO  - Test Suite Started: Validar condiciones legales
+18:10:18.775 [Test worker] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/oscar.murillo/Desktop/AUTOMATIZACION/bpop-salaryloans-qa-api/src/test/resources/features/lifeInsurance.feature
+18:10:18.775 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.model.domain.Story@e12667c0
+18:10:18.775 [Test worker] INFO  - Test Suite Started: Validar seguro de vida deudores
+18:10:18.776 [Test worker] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/oscar.murillo/Desktop/AUTOMATIZACION/bpop-salaryloans-qa-api/src/test/resources/features/login.feature
+18:10:18.776 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.model.domain.Story@c4bded20
+18:10:18.777 [Test worker] INFO  - Test Suite Started: Validar pagina de inicio
+18:10:18.777 [Test worker] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/oscar.murillo/Desktop/AUTOMATIZACION/bpop-salaryloans-qa-api/src/test/resources/features/mdm.feature
+18:10:18.777 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.model.domain.Story@34b6c0
+18:10:18.778 [Test worker] INFO  - Test Suite Started: Validar consulta y actualización de datos del cliente
+18:10:18.778 [Test worker] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/oscar.murillo/Desktop/AUTOMATIZACION/bpop-salaryloans-qa-api/src/test/resources/features/payrollcheck.feature
+18:10:18.779 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.model.domain.Story@e856e060
+18:10:18.779 [Test worker] INFO  - Test Suite Started: Validación de mi desprendible
+18:10:18.779 [Test worker] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/oscar.murillo/Desktop/AUTOMATIZACION/bpop-salaryloans-qa-api/src/test/resources/features/payrollhistory.feature
+18:10:18.781 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.model.domain.Story@8e4479e0
+18:10:18.781 [Test worker] INFO  - Test Suite Started: Validar el historial de libranzas
+18:10:18.781 [Test worker] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/oscar.murillo/Desktop/AUTOMATIZACION/bpop-salaryloans-qa-api/src/test/resources/features/phonemodel.feature
+18:10:18.782 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.model.domain.Story@817e4f60
+18:10:18.783 [Test worker] INFO  - Test Suite Started: Validacion de desprendible en venta telefónica
+18:10:18.783 [Test worker] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/oscar.murillo/Desktop/AUTOMATIZACION/bpop-salaryloans-qa-api/src/test/resources/features/promissory_note.feature
+18:10:18.784 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.model.domain.Story@9a047880
+18:10:18.784 [Test worker] INFO  - Test Suite Started: Pagaré unico
+18:10:18.784 [Test worker] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/oscar.murillo/Desktop/AUTOMATIZACION/bpop-salaryloans-qa-api/src/test/resources/features/renewal.feature
+18:10:18.785 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.model.domain.Story@23b4ef00
+18:10:18.785 [Test worker] INFO  - Test Suite Started: Novar una libranza
+18:10:18.785 [Test worker] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/oscar.murillo/Desktop/AUTOMATIZACION/bpop-salaryloans-qa-api/src/test/resources/features/reprecio.feature
+18:10:18.786 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.model.domain.Story@d6006720
+18:10:18.786 [Test worker] INFO  - Test Suite Started: Flujo reprecio
+18:10:18.786 [Test worker] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/oscar.murillo/Desktop/AUTOMATIZACION/bpop-salaryloans-qa-api/src/test/resources/features/search.feature
+18:10:18.787 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.model.domain.Story@3f4cb500
+18:10:18.787 [Test worker] INFO  - Test Suite Started: Busqueda del cliente
+18:10:18.787 [Test worker] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/oscar.murillo/Desktop/AUTOMATIZACION/bpop-salaryloans-qa-api/src/test/resources/features/simvalidation.feature
+18:10:18.788 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.model.domain.Story@f0049200
+18:10:18.788 [Test worker] INFO  - Test Suite Started: Validacion de SIM
+18:10:18.788 [Test worker] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/oscar.murillo/Desktop/AUTOMATIZACION/bpop-salaryloans-qa-api/src/test/resources/features/sygnus.feature
+18:10:18.789 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.model.domain.Story@62dd2560
+18:10:18.789 [Test worker] INFO  - Test Suite Started: Consulta en Sygnus
+18:10:18.789 [Test worker] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/oscar.murillo/Desktop/AUTOMATIZACION/bpop-salaryloans-qa-api/src/test/resources/features/toggles.feature
+18:10:18.790 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.model.domain.Story@7315f3e0
+18:10:18.790 [Test worker] INFO  - Test Suite Started: Consulta de los estados de los toggles de libranzas
+18:10:18.791 [Test worker] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/oscar.murillo/Desktop/AUTOMATIZACION/bpop-salaryloans-qa-api/src/test/resources/features/transactionAudit.feature
+18:10:18.791 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.model.domain.Story@961e73a0
+18:10:18.792 [Test worker] INFO  - Test Suite Started: Validación de datos PEP-USGAP-JD
+18:10:18.792 [Test worker] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/oscar.murillo/Desktop/AUTOMATIZACION/bpop-salaryloans-qa-api/src/test/resources/features/extraction.feature
+18:10:18.793 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.model.domain.Story@997bfce0
+18:10:18.793 [Test worker] INFO  - Test Suite Started: Extractor e interpretador de desprendibles
+18:10:39.649 [Test worker] DEBUG net.thucydides.model.reports.ReportService - Reporting formats: [JSON]
+18:10:39.651 [Test worker] DEBUG net.thucydides.model.reports.ReportService - Reporting formats: [JSON]
+18:10:39.655 [Test worker] DEBUG net.thucydides.model.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.model.reports.json.JSONTestOutcomeReporter@236e4b5e
+18:10:39.655 [pool-4-thread-1] DEBUG net.thucydides.model.reports.ReportService - Processing test outcome Extractor e interpretador de desprendibles:Validar extraccion e interpretacion exitosa para cliente FOPEP Ampliacion un desprendible
+18:10:39.655 [pool-4-thread-1] DEBUG net.thucydides.model.reports.ReportService - net.thucydides.model.reports.json.JSONTestOutcomeReporter@236e4b5e: Generating report for test outcome: Extractor e interpretador de desprendibles:Validar extraccion e interpretacion exitosa para cliente FOPEP Ampliacion un desprendible
+18:10:39.659 [pool-4-thread-1] DEBUG net.thucydides.model.reports.json.JSONTestOutcomeReporter - Generating JSON report for Validar extraccion e interpretacion exitosa para cliente FOPEP Ampliacion un desprendible to file /Users/oscar.murillo/Desktop/AUTOMATIZACION/bpop-salaryloans-qa-api/target/site/serenity/31236f348cf642425a53b89309424dec51e5afb56862b00a17c90fdd4a1ecdd8.json)
+18:10:39.669 [pool-4-thread-1] DEBUG net.thucydides.model.reports.ReportService - Processing test outcome Extractor e interpretador de desprendibles:Validar extraccion e interpretacion exitosa para cliente FOPEP Ampliacion un desprendible done
+18:10:39.670 [Test worker] DEBUG net.thucydides.model.reports.ReportService - Shutting down executor service
+18:10:39.670 [Test worker] DEBUG net.thucydides.model.reports.ReportService - Reports generated in: 15 ms
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "idUsuario": {
+      "type": "integer"
+    },
+    "profile": {
+      "type": "string"
+    },
+    "nombre": {
+      "type": "string"
+    },
+    "apellido": {
+      "type": "string"
+    },
+    "token": {
+      "type": "string"
+    },
+    "module": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "name"
+          ]
+        }
+      ]
+    },
+    "generatedId": {
+      "type": "null"
+    },
+    "returnCode": {
+      "type": "null"
+    }
+  },
+  "required": [
+    "idUsuario",
+    "profile",
+    "nombre",
+    "apellido",
+    "token",
+    "module",
+    "generatedId",
+    "returnCode"
+  ]
+}

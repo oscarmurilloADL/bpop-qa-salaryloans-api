@@ -1,0 +1,633 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "featureName": {
+          "type": "string"
+        },
+        "featureEnabled": {
+          "type": "boolean"
+        },
+        "featureDescription": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "featureName",
+        "featureEnabled",
+        "featureDescription"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "featureName": {
+          "type": "string"
+        },
+        "featureEnabled": {
+          "type": "boolean"
+        },
+        "featureDescription": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "featureName",
+        "featureEnabled",
+        "featureDescription"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "featureName": {
+          "type": "string"
+        },
+        "featureEnabled": {
+          "type": "boolean"
+        },
+        "featureDescription": {
+          "type": "null"
+        }
+      },
+      "required": [
+        "featureName",
+        "featureEnabled",
+        "featureDescription"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "featureName": {
+          "type": "string"
+        },
+        "featureEnabled": {
+          "type": "boolean"
+        },
+        "featureDescription": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "featureName",
+        "featureEnabled",
+        "featureDescription"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "featureName": {
+          "type": "string"
+        },
+        "featureEnabled": {
+          "type": "boolean"
+        },
+        "featureDescription": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "featureName",
+        "featureEnabled",
+        "featureDescription"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "featureName": {
+          "type": "string"
+        },
+        "featureEnabled": {
+          "type": "boolean"
+        },
+        "featureDescription": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "featureName",
+        "featureEnabled",
+        "featureDescription"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "featureName": {
+          "type": "string"
+        },
+        "featureEnabled": {
+          "type": "boolean"
+        },
+        "featureDescription": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "featureName",
+        "featureEnabled",
+        "featureDescription"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "featureName": {
+          "type": "string"
+        },
+        "featureEnabled": {
+          "type": "boolean"
+        },
+        "featureDescription": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "featureName",
+        "featureEnabled",
+        "featureDescription"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "featureName": {
+          "type": "string"
+        },
+        "featureEnabled": {
+          "type": "boolean"
+        },
+        "featureDescription": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "featureName",
+        "featureEnabled",
+        "featureDescription"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "featureName": {
+          "type": "string"
+        },
+        "featureEnabled": {
+          "type": "boolean"
+        },
+        "featureDescription": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "featureName",
+        "featureEnabled",
+        "featureDescription"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "featureName": {
+          "type": "string"
+        },
+        "featureEnabled": {
+          "type": "boolean"
+        },
+        "featureDescription": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "featureName",
+        "featureEnabled",
+        "featureDescription"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "featureName": {
+          "type": "string"
+        },
+        "featureEnabled": {
+          "type": "boolean"
+        },
+        "featureDescription": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "featureName",
+        "featureEnabled",
+        "featureDescription"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "featureName": {
+          "type": "string"
+        },
+        "featureEnabled": {
+          "type": "boolean"
+        },
+        "featureDescription": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "featureName",
+        "featureEnabled",
+        "featureDescription"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "featureName": {
+          "type": "string"
+        },
+        "featureEnabled": {
+          "type": "boolean"
+        },
+        "featureDescription": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "featureName",
+        "featureEnabled",
+        "featureDescription"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "featureName": {
+          "type": "string"
+        },
+        "featureEnabled": {
+          "type": "boolean"
+        },
+        "featureDescription": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "featureName",
+        "featureEnabled",
+        "featureDescription"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "featureName": {
+          "type": "string"
+        },
+        "featureEnabled": {
+          "type": "boolean"
+        },
+        "featureDescription": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "featureName",
+        "featureEnabled",
+        "featureDescription"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "featureName": {
+          "type": "string"
+        },
+        "featureEnabled": {
+          "type": "boolean"
+        },
+        "featureDescription": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "featureName",
+        "featureEnabled",
+        "featureDescription"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "featureName": {
+          "type": "string"
+        },
+        "featureEnabled": {
+          "type": "boolean"
+        },
+        "featureDescription": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "featureName",
+        "featureEnabled",
+        "featureDescription"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "featureName": {
+          "type": "string"
+        },
+        "featureEnabled": {
+          "type": "boolean"
+        },
+        "featureDescription": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "featureName",
+        "featureEnabled",
+        "featureDescription"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "featureName": {
+          "type": "string"
+        },
+        "featureEnabled": {
+          "type": "boolean"
+        },
+        "featureDescription": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "featureName",
+        "featureEnabled",
+        "featureDescription"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "featureName": {
+          "type": "string"
+        },
+        "featureEnabled": {
+          "type": "boolean"
+        },
+        "featureDescription": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "featureName",
+        "featureEnabled",
+        "featureDescription"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "featureName": {
+          "type": "string"
+        },
+        "featureEnabled": {
+          "type": "boolean"
+        },
+        "featureDescription": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "featureName",
+        "featureEnabled",
+        "featureDescription"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "featureName": {
+          "type": "string"
+        },
+        "featureEnabled": {
+          "type": "boolean"
+        },
+        "featureDescription": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "featureName",
+        "featureEnabled",
+        "featureDescription"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "featureName": {
+          "type": "string"
+        },
+        "featureEnabled": {
+          "type": "boolean"
+        },
+        "featureDescription": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "featureName",
+        "featureEnabled",
+        "featureDescription"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "featureName": {
+          "type": "string"
+        },
+        "featureEnabled": {
+          "type": "boolean"
+        },
+        "featureDescription": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "featureName",
+        "featureEnabled",
+        "featureDescription"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "featureName": {
+          "type": "string"
+        },
+        "featureEnabled": {
+          "type": "boolean"
+        },
+        "featureDescription": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "featureName",
+        "featureEnabled",
+        "featureDescription"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "featureName": {
+          "type": "string"
+        },
+        "featureEnabled": {
+          "type": "boolean"
+        },
+        "featureDescription": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "featureName",
+        "featureEnabled",
+        "featureDescription"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "featureName": {
+          "type": "string"
+        },
+        "featureEnabled": {
+          "type": "boolean"
+        },
+        "featureDescription": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "featureName",
+        "featureEnabled",
+        "featureDescription"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "featureName": {
+          "type": "string"
+        },
+        "featureEnabled": {
+          "type": "boolean"
+        },
+        "featureDescription": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "featureName",
+        "featureEnabled",
+        "featureDescription"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "featureName": {
+          "type": "string"
+        },
+        "featureEnabled": {
+          "type": "boolean"
+        },
+        "featureDescription": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "featureName",
+        "featureEnabled",
+        "featureDescription"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "featureName": {
+          "type": "string"
+        },
+        "featureEnabled": {
+          "type": "boolean"
+        },
+        "featureDescription": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "featureName",
+        "featureEnabled",
+        "featureDescription"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "featureName": {
+          "type": "string"
+        },
+        "featureEnabled": {
+          "type": "boolean"
+        },
+        "featureDescription": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "featureName",
+        "featureEnabled",
+        "featureDescription"
+      ]
+    },
+    {
+      "type": "object",
+      "properties": {
+        "featureName": {
+          "type": "string"
+        },
+        "featureEnabled": {
+          "type": "boolean"
+        },
+        "featureDescription": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "featureName",
+        "featureEnabled",
+        "featureDescription"
+      ]
+    }
+  ]
+}
